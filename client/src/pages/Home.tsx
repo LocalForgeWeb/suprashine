@@ -22,6 +22,7 @@ import {
 
 const HERO_IMAGE = "/manus-storage/async-images/pitpPJ8qLLYbn1ed7s34eR/image-1.webp";
 const DETAIL_IMAGE = "/manus-storage/async-images/pitpPJ8qLLYbn1ed7s34eR/image-2.webp";
+const LOGO_IMAGE = "/manus-storage/async-images/rWmLnLnx8g9jxt9HVqwQ4c/image-1.webp";
 
 const services = [
   {
@@ -89,8 +90,7 @@ export default function Home() {
 
       <header className="site-header">
         <a href="#top" className="brand" aria-label="Supra Shine home">
-          <span className="brand-mark" aria-hidden="true"><span /></span>
-          <span className="brand-copy"><strong>SUPRA</strong><em>SHINE</em></span>
+          <img className="brand-logo" src={LOGO_IMAGE} alt="Supra Shine" />
         </a>
         <nav className="desktop-nav" aria-label="Primary navigation">
           <a href="#services">Services</a>
@@ -245,7 +245,7 @@ export default function Home() {
       </main>
 
       <footer className="site-footer">
-        <div className="page-width footer-top"><a href="#top" className="brand footer-brand"><span className="brand-mark" aria-hidden="true"><span /></span><span className="brand-copy"><strong>SUPRA</strong><em>SHINE</em></span></a><p>Precision detailing for cars<br />worth looking back at.</p><div className="footer-links"><a href="mailto:hello@suprashine.au"><Mail size={15} /> Email us</a><a href="https://www.instagram.com" target="_blank" rel="noreferrer"><Instagram size={15} /> Instagram</a></div></div>
+        <div className="page-width footer-top"><a href="#top" className="brand footer-brand"><img className="brand-logo" src={LOGO_IMAGE} alt="Supra Shine" /></a><p>Precision detailing for cars<br />worth looking back at.</p><div className="footer-links"><a href="mailto:hello@suprashine.au"><Mail size={15} /> Email us</a><a href="https://www.instagram.com" target="_blank" rel="noreferrer"><Instagram size={15} /> Instagram</a></div></div>
         <div className="page-width footer-bottom"><span>© 2025 Supra Shine Detailing</span><span>Byron Bay · Gold Coast · Australia</span><a href="https://localforgeweb.com" target="_blank" rel="noreferrer">built by Gabe Naim-LocalForgeWeb</a></div>
       </footer>
     </div>
