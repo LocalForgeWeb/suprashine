@@ -145,6 +145,12 @@ h2 { margin: 0; font: 500 clamp(60px, 8vw, 108px)/.79 'Barlow Condensed', sans-s
 .contact-intro > p { max-width: 380px; margin: 0; color: #aab7b3; font-size: 13px; line-height: 1.8; }
 .direct-contact { max-width: 380px; display: flex; align-items: center; gap: 14px; margin-top: 40px; padding: 15px 0; border-top: 1px solid rgba(255,255,255,.2); border-bottom: 1px solid rgba(255,255,255,.2); }
 .direct-icon { width: 36px; height: 36px; display: grid; place-items: center; color: var(--ink); background: var(--blue); }
+.facebook-contact { max-width: 380px; display: flex; align-items: center; gap: 14px; padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,.2); }
+.facebook-icon { width: 36px; height: 36px; display: grid; place-items: center; color: var(--ink); background: #dce8ff; }
+.facebook-contact > span:nth-child(2) { display: flex; flex-direction: column; gap: 5px; }
+.facebook-contact small { color: #91a09b; font: 500 9px/1 'IBM Plex Mono', monospace; letter-spacing: .08em; text-transform: uppercase; }
+.facebook-contact strong { color: var(--white); font: 500 18px/1 'Barlow Condensed', sans-serif; letter-spacing: .02em; }
+.facebook-contact > svg { margin-left: auto; color: var(--blue); }
 .direct-contact > span:nth-child(2) { display: flex; flex-direction: column; gap: 5px; }
 .direct-contact small { color: #91a09b; font: 500 9px/1 'IBM Plex Mono', monospace; letter-spacing: .08em; text-transform: uppercase; }
 .direct-contact strong { color: var(--white); font: 500 18px/1 'Barlow Condensed', sans-serif; letter-spacing: .02em; }

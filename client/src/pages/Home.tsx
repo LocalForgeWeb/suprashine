@@ -12,6 +12,7 @@ import {
   Gauge,
   Instagram,
   Mail,
+  MessageCircle,
   MapPin,
   Menu,
   Phone,
@@ -23,6 +24,7 @@ import {
 const HERO_IMAGE = "/manus-storage/async-images/pitpPJ8qLLYbn1ed7s34eR/image-1.webp";
 const DETAIL_IMAGE = "/manus-storage/async-images/pitpPJ8qLLYbn1ed7s34eR/image-2.webp";
 const LOGO_IMAGE = "/manus-storage/async-images/rWmLnLnx8g9jxt9HVqwQ4c/image-1.webp";
+const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61596005452056&mibextid=wwXIfr&mibextid=wwXIfr";
 
 const services = [
   {
@@ -222,6 +224,7 @@ export default function Home() {
               <h2>Ready when<br /><span>you are.</span></h2>
               <p>Tell us what you drive, what you want to change, and when you would like it back. We will come back with a considered recommendation—not a generic package list.</p>
               <a className="direct-contact" href="tel:+61412088544"><span className="direct-icon"><Phone size={18} /></span><span><small>Prefer to talk?</small><strong>+61 412 088 544</strong></span><ArrowUpRight size={18} /></a>
+              <a className="facebook-contact" href={FACEBOOK_URL} target="_blank" rel="noreferrer"><span className="facebook-icon"><MessageCircle size={18} /></span><span><small>Have a quick question?</small><strong>Message us on Facebook</strong></span><ArrowUpRight size={18} /></a>
               <div className="studio-details"><div><MapPin size={17} /><span>14 Banksia Drive<br />Byron Bay NSW 2481</span></div><div><Clock3 size={17} /><span>Tue–Sat · 8:00–17:00<br />By appointment only</span></div></div>
             </div>
             <div className="inquiry-card">
@@ -245,7 +248,7 @@ export default function Home() {
       </main>
 
       <footer className="site-footer">
-        <div className="page-width footer-top"><a href="#top" className="brand footer-brand"><img className="brand-logo" src={LOGO_IMAGE} alt="Supra Shine" /></a><p>Precision detailing for cars<br />worth looking back at.</p><div className="footer-links"><a href="mailto:hello@suprashine.au"><Mail size={15} /> Email us</a><a href="https://www.instagram.com" target="_blank" rel="noreferrer"><Instagram size={15} /> Instagram</a></div></div>
+        <div className="page-width footer-top"><a href="#top" className="brand footer-brand"><img className="brand-logo" src={LOGO_IMAGE} alt="Supra Shine" /></a><p>Precision detailing for cars<br />worth looking back at.</p><div className="footer-links"><a href="mailto:hello@suprashine.au"><Mail size={15} /> Email us</a><a href={FACEBOOK_URL} target="_blank" rel="noreferrer"><MessageCircle size={15} /> Message us on Facebook</a><a href="https://www.instagram.com" target="_blank" rel="noreferrer"><Instagram size={15} /> Instagram</a></div></div>
         <div className="page-width footer-bottom"><span>© 2025 Supra Shine Detailing</span><span>Byron Bay · Gold Coast · Australia</span><a href="https://localforgeweb.com" target="_blank" rel="noreferrer">built by Gabe Naim-LocalForgeWeb</a></div>
       </footer>
     </div>
