@@ -23,7 +23,7 @@ import {
 
 const HERO_IMAGE = "/manus-storage/async-images/pitpPJ8qLLYbn1ed7s34eR/image-1.webp";
 const DETAIL_IMAGE = "/manus-storage/async-images/pitpPJ8qLLYbn1ed7s34eR/image-2.webp";
-const LOGO_IMAGE = "/manus-storage/async-images/rWmLnLnx8g9jxt9HVqwQ4c/image-1.webp";
+const LOGO_IMAGE = "/suprashine-logo.png";
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61596005452056&mibextid=wwXIfr&mibextid=wwXIfr";
 
 const services = [
